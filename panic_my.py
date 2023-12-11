@@ -8,7 +8,7 @@ for ch in 'on tap':
     if ch in plist:
         tmp.append(ch)
 
-plist = tmp
+plist = tmp.copy()
 
 new_phrase = ''.join(plist)
 print(plist)
